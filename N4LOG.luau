@@ -5,6 +5,8 @@ getgenv().AutoSkipCutscenes = true
 getgenv().AutoRejoin = true
 getgenv().AutoRestart = true
 getgenv().AutoPickups = true
+getgenv().AutoMercbase = true
+getgenv().mercbase=45345453
 -- [ End Settings ] --
 
 local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
