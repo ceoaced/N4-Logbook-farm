@@ -6,7 +6,7 @@ getgenv().AutoRejoin = true
 getgenv().AutoRestart = true
 getgenv().AutoPickups = true
 getgenv().AutoMercenary = true
-getgenv().MercenaryPath = 140
+getgenv().MercenaryPath = 314
 -- [ End Settings ] --
 
 local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
