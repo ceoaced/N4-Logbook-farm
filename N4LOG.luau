@@ -1,5 +1,5 @@
 -- [ Settings ] --
-getgenv().AutoReady = true
+getgenv().AutoReady = false
 getgenv().AutoSkip = true
 getgenv().AutoSkipCutscenes = true
 getgenv().AutoRejoin = true
@@ -23,6 +23,7 @@ TDS:SetTarget(1, "Random")
 TDS:SetTarget(1, "Farthest")
 TDS:Upgrade(1)
 TDS:Place("Assassin", 3.3703761100769043, 0.999984860420227, -25.182613372802734)
+TDS:Ready()
 TDS:Upgrade(2)
 
 -- [ Wave 2 ] --
