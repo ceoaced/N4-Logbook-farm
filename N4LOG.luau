@@ -10,11 +10,11 @@ getgenv().MercenaryPath = 314
 -- [ End Settings ] --
 
 local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
-
+game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("PlayerManager"):WaitForChild("RE:UserLoadout"):FireServer()
 TDS:Loadout("Gatling Gun", "Pyromancer", "Assassin", "Hacker", "Mercenary Base")
 TDS:Mode("Act4Easy")
 TDS:GameInfo("Totality Tower", {})
-game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("PlayerManager"):WaitForChild("RE:UserLoadout"):FireServer()
+
 
 -- [ Wave 1 ] --
 TDS:Place("Pyromancer", -3.685751438140869, 0.9999891519546509, -25.732202529907227)
